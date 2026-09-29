@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
             onTap: () {},
             child: ListTile(
               title: Text(cars[index].name),
-              subtitle: Text('{cars[index].year}'),
+              subtitle: Text('${cars[index].year}'),
               leading: Image.network(cars[index].image, width: 50, height: 50),
               trailing: Icon(Icons.arrow_forward_ios, color: Colors.black54),
               onTap: () {
